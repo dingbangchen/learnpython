@@ -38,7 +38,56 @@
 # s = 3.14 * r ** 2
 # print(f'The area of a circle with radius {r} is {s:.2f}')
 
-classmate = ['Michael', 'Bob', 'Tracy']
-print(classmate[0])
-print(classmate[2])
-print(classmate[3])
+# classmate = ['Michael', 'Bob', 'Tracy']
+# print(classmate[0])
+# print(classmate[1])
+# print(classmate[2])
+# classmate.append('Adam')
+# print(classmate)
+# classmate.insert(1,'Jack')
+# print(classmate)
+# classmate.pop(1)
+# print(classmate)
+# classmate.pop()
+# 'Adam'
+# print(classmate)
+# classmate[1]='Sarah'
+# print(classmate)
+
+# L = ['Apple', 123, True]
+
+# p = ['asp', 'php']
+# s = ['python', 'java', p, 'scheme']
+# print(s[2][1])
+
+
+# age = 20
+# if age >= 18:
+#     print('your age is: ', 18)
+#     print('adult')
+
+# age = 13
+# if age >= 18:
+#     print('your age is : ', age)
+#     print('Adult')
+# else:
+#     print('your age is : ', age)
+#     print('Teenager')
+
+# age = 3
+# if age >= 18:
+#     print('Adult')
+# elif age <= 6:
+#     print('kid')
+# else:
+#     print('teenager')
+
+age = input("age :")
+ages = int(age)
+if ages >= 18:
+    print('adult')
+elif ages <= 6:
+    print('kid')
+else:
+    print('teenager')
+
