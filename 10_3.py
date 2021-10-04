@@ -80,9 +80,11 @@
 # print(a)
 # 注意这里不能直接print(sort)因为这样优先进行的print但是无法sort
 
-a = 'abc'
-a.replace('a','A')
-print(a)
-b= 'abc'
-b.replace('a','A')
-print(b,a)
+# a = 'abc'
+# a.replace('a','A')
+# print(a)
+# b= 'abc'
+# b.replace('a','A')
+# print(b,a)
+
+# 列表 list[] 、元组 tuple() 、字典 dict{ key : value } 、无序不重复元素集合 set(list[]) ，后两者的key为不可变对象。元组也不可变。
