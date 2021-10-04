@@ -14,7 +14,8 @@
 # ... line2
 # ... line3''')
 
-# 但事实上PI仍然是一个变量，Python根本没有任何机制保证PI不会被改变，所以，用全部大写的变量名表示常量只是一个习惯上的用法，如果你一定要改变变量PI的值，也没人能拦住你。
+
+#但事实上PI仍然是一个变量，Python根本没有任何机制保证PI不会被改变，所以，用全部大写的变量名表示常量只是一个习惯上的用法，如果你一定要改变变量PI的值，也没人能拦住你。
 
 # print(10/3)
 # print(10//3)
@@ -82,12 +83,13 @@
 # else:
 #     print('teenager')
 
-age = input("age :")
-ages = int(age)
-if ages >= 18:
-    print('adult')
-elif ages <= 6:
-    print('kid')
-else:
-    print('teenager')
+# age = input("age :")
+# ages = int(age)  
+# 因为input()返回的数据类型是str，str不能直接和整数比较，必须先把str转换成整数。Python提供了int()函数来完成这件事情：
+# if ages >= 18:
+#     print('adult')
+# elif ages <= 6:
+#     print('kid')
+# else:
+#     print('teenager')
 
