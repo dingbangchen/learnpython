@@ -78,7 +78,7 @@
 # a = ['c','b','a']
 # a.sort()
 # print(a)
-# 注意这里不能直接print(sort)因为这样优先进行的print但是无法sort
+# 注意这里不能直接print(sort)因为这样优先进行的print但是无 in d法sort
 
 # a = 'abc'
 # a.replace('a','A')
