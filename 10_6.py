@@ -50,3 +50,35 @@
 #     反向列表中元素
 # list.sort(cmp=None, key=None, reverse=False)
 #     对原列表进行排序
+
+
+#元组
+# #example
+# tup1 = ('physics','chemistry,1997,2000')
+# tup2 = (1,2,3,4,5)
+# tup3 = "a","b","c","d","e"
+
+#创建空元组
+# tup1 = ()
+
+#元组中只包含一个元素时，需要在元素后面添加逗号
+# tup1 = (50,)
+
+#访问元组
+# tup1 = ('physics','chemistry',1997,2000)
+# tup2 = (1,2,3,4,5,6,7,8,9,)
+# print("tup1[0]: ", tup1[0])
+# print("tup2[1:5]:", tup2[1:5])
+
+# #元组中的元素是不允许修改的，但是我们可以对元组进行连接组合
+# tup1=(12,34,56)
+# tup2 = ('abc','xyz')
+# tup3 = tup1+tup2
+# print(tup3)
+
+# #元组中的元素值是不允许被删除的，但是可以删除整个元组
+# tup1 = ('physics','chemistry',1997,2000)
+# print(tup1)
+# del tup1
+# print(tup1)
+
