@@ -16,21 +16,21 @@
 for ch in "ABC":
     print (ch)
 
-#判断一个对象是否为可迭代对象
-#通过 collctions.abc模块 的 iterable 类型来判断
-from collections.abc import Iterable
-print(isinstance('abc', Iterable))
-print(isinstance(123,Iterable))
-print(isinstance([1,2,3], Iterable))
-#这里注意Iterable大写
+# #判断一个对象是否为可迭代对象
+# #通过 collctions.abc模块 的 iterable 类型来判断
+# from collections.abc import Iterable
+# print(isinstance('abc', Iterable))
+# print(isinstance(123,Iterable))
+# print(isinstance([1,2,3], Iterable))
+# #这里注意Iterable大写
 
-#如果要像别的语言那样带下标循环
-#Python内置的enumerate函数可以把一个list变成索引-元素对，这样就可以在for循环中同时迭代索引和元素本身：
-L = [1,2,3,4,5,6,7,8,9,10]
-for i , value in enumerate(L):
-    print(i,value)
-#这里注意一个小细节，L = []是创建一个list,L = list[]是将别的转化成list
+# #如果要像别的语言那样带下标循环
+# #Python内置的enumerate函数可以把一个list变成索引-元素对，这样就可以在for循环中同时迭代索引和元素本身：
+# L = [1,2,3,4,5,6,7,8,9,10]
+# for i , value in enumerate(L):
+#     print(i,value)
+# #这里注意一个小细节，L = []是创建一个list,L = list[]是将别的转化成list
 
-#在for循环中创建有两个变量是非常常见的
-for x,y in [(1,2),(3,4),(5,6)]:
-    print (x,y)
+# #在for循环中创建有两个变量是非常常见的
+# for x,y in [(1,2),(3,4),(5,6)]:
+#     print (x,y)
