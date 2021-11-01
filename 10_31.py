@@ -56,6 +56,11 @@
 # print(universal_age)
 # 这里不能用逗号，否则就变成数组了
 
-# multiple assignment
-x,y,z = 1, 2, 4
-print(x, y, z)
+# # multiple assignment
+# x,y,z = 1, 2, 4
+# print(x, y, z)
+
+# constant
+# MAX_CONNECTIONS = 5000
+# when you want to treat your variable as a constant, make the name of the variable all capital letters
+
