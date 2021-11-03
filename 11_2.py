@@ -39,14 +39,15 @@
 # print(f"\nA {too_expensive} is too expensive for me")
 # print(motorcycle)
 
-# exercise
-dinner_guest = ['A','B','C','D']
-print(f"Guests who can come are:{dinner_guest}")
-dinner_guest_poped = dinner_guest.pop(0)
-print(f"Sorry the guest {dinner_guest_poped} can not come over")
-dinner_guest.append('E')
-print(f"Guests who can come now are:{dinner_guest}")
-dinner_guest.insert(0,'F')
-dinner_guest.insert(-1,'G')
-dinner_guest.insert(3,'H')
-print(dinner_guest)
+# # exercise
+# dinner_guest = ['A','B','C','D']
+# print(f"Guests who can come are:{dinner_guest}")
+# dinner_guest_poped = dinner_guest.pop(0)
+# print(f"Sorry the guest {dinner_guest_poped} can not come over")
+# dinner_guest.append('E')
+# print(f"Guests who can come now are:{dinner_guest}")
+# dinner_guest.insert(0,'F')
+# dinner_guest.insert(-1,'G')
+# dinner_guest.insert(3,'H')
+# print(dinner_guest)
+
