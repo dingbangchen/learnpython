@@ -49,8 +49,45 @@ for values in range(1,5):
 #     squares.append(square)
 # print(squares)
 
-# better way:
-squares = []
-for value in range(1,11):
-    squares.append(value**2)
-print(squares)
+# # better way:
+# squares = []
+# for value in range(1,11):
+#     squares.append(value**2)
+# print(squares)
+
+# # list comprehension:
+# squares = [value**2 for value in range(1,11)]
+# print(squares)
+
+
+
+# # simple static with a list of numbers
+# digits = [1,2,3,4,5,6,7,8,9]
+# print(min(digits))
+# print(max(digits))
+# print(sum(digits))
+
+
+# slice a list
+players = ['charles','martina','michael','florence','eli']
+print(players[0:3])
+print(players[1:4])
+print(players[:4])
+print(players[2:])
+print(players[-3:])
+
+# looping through a slice
+for members in players[:3]:
+    print(f"this is the team member: {members}")
+
+# copying a list
+my_food = ['pizza','falafel','carrot cake']
+friend_food = my_food[:]
+print(my_food)
+print(friend_food) #here we actually created two list
+my_food.append('cannoli')
+friend_food.append('ice cream')
+print(my_food)
+print(friend_food)
+friend_food = my_food[1:]
+print(friend_food)
