@@ -132,11 +132,23 @@
 #     print(f"Add {topping}")
 # print('finished')
 
-# check that a list is not empty
-toppings = []
-if toppings:
-    for topping in toppings:
-        print(f"add {topping}")
-else:
-        print("Are you sure you want a plain pizza?")
+# # check that a list is not empty
+# toppings = []
+# if toppings:
+#     for topping in toppings:
+#         print(f"add {topping}")
+# else:
+#         print("Are you sure you want a plain pizza?")
 
+
+# using multiple lists
+available_toppings = ['mushrooms','olives','green peppers','pepperoni','[pineapple','extra cheese']
+requested_toppings = ['mushrooms','french fries','extra cheese']
+for requested_topping in requested_toppings:
+    if requested_topping in available_toppings:
+       print(f"Adding {requested_topping}")
+    else:
+        print(f"Sorry we don't have {requested_topping}")
+print('\nFinished making your pizza!')
+# 这个代码后期重点看一下，涉及到for 和 if两个循环，需要弄清楚参数
+    
