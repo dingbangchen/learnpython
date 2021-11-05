@@ -50,4 +50,3 @@
 # dinner_guest.insert(-1,'G')
 # dinner_guest.insert(3,'H')
 # print(dinner_guest)
-
