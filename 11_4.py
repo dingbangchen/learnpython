@@ -35,7 +35,7 @@
 #     else:
 #         print(car.upper())
     
-# # ignoring case when ckecking for equality
+# # ignoring case when checking for equality
 # # case sensitive
 # car = 'Audi'
 # if car == 'audi':
