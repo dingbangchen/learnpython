@@ -67,3 +67,59 @@
 # #if the key does't exist
 # speed_value = alien_0.get('speed','slow')
 # print(speed_value)
+
+
+
+# # looping through a dictionary
+# user_0 = {
+#     'username': 'efermi',
+#     'first': 'enrico',
+#     'last':'fermi',
+# }
+# for key,value in user_0.items():
+#     print(f"\nKey:{key}")
+#     print(f"Value:{value}")
+
+# looping through all key-value
+favorite_language = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil':'python',
+}
+for name, language in favorite_language.items():         #这里注意要加item， dict object is not callable
+    print(f"{name}'s favorite language is {language}")
+
+# looping through all keys
+for name in favorite_language.keys():
+    print(name.title())
+for name1 in favorite_language:
+    print(name1.title())
+# these two are exactly the same
+
+# You can access the value associated with any key inside the loop by using the current key
+friend = ['phil','sarah']
+for name in favorite_language.keys():
+    print(f"Hi,{name.title()}")
+    if name in friend:
+        language = favorite_language[name].title()
+        print(f"\t{name}, your favorite language is {language}")
+
+# you can also use the key() to find out if a particular person was polled
+if 'erin' not in favorite_language.keys():
+    print("Erin,please take our poll")
+
+
+# looping through a dictionary's keys in a particular order
+for name in sorted(favorite_language.keys()):
+    print(f"{name}, thank you for taking the poll")
+
+
+
+# looping through all values in a dictionary
+print('The following language has been mentioned')
+for language in sorted(favorite_language.values()):
+    print(language.title())
+for language in sorted(set((favorite_language).values())):
+    print(language.title())
+
