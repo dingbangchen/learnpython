@@ -120,3 +120,45 @@
 # age = input(prompt)
 # age = int(age)
 # if
+
+
+# # using a loop with lists and dictionarys
+# # start with users that need to be verified
+# # and an empty list to hold verified user
+# unconfirmed_users = ['alice','brian','candace']
+# confirmed_users = []
+# # Verify each user until there are no more unconfirmed user
+# # move each verified user into confirmed user
+# while unconfirmed_users:
+#     current_user = unconfirmed_users.pop()
+#     print(f"Verified user: {current_user}")
+#     confirmed_users.append(current_user)
+# print("\nThe following user has been confirmed:")
+# for confirmed_user in confirmed_users:
+#     print(confirmed_user.title())
+
+
+# # removeing all instances of specific valus from a list
+# pets = ['dog','cat','dog','goldfish','cat','rabbit','cat']
+# while 'cat' in pets:
+#     pets.remove('cat')
+# print(pets)
+
+# # Filling a dictionary with user input
+# # mountain_poll.py
+# responses = {}
+# # set a flag
+# polling_active = True
+# while polling_active:
+#     name = input("What is your name:\n")
+#     response = input("Which mountain would you like to climb someday\n")
+# # store the response in a dictionary
+#     responses[name]=response
+# # find out if anyone else is going to take the poll
+#     repeat = input("would you like another one to response?(yes/no)\n")
+#     if repeat == "no":
+#         polling_active = False
+# print("\n-----Polling Result-----")
+# for name, response in responses.items():
+#     print(f"{name} would like to climb {response}")
+# 
