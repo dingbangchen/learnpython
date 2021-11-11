@@ -64,11 +64,37 @@
 # musician = get_formatted_name('jimi','hendrix')
 # print(musician)
 
-# Making an argument optional
-def get_formatted_name(first_name, last_name,middle_name =''):
-    full_name = f"{first_name} {middle_name} {last_name}"
-    return full_name.title()
-musician1 = get_formatted_name('john','lee','hooker')
-musician2 = get_formatted_name('jimi','hendrix')
-print(musician1)
-print(musician2)
+# # Making an argument optional
+# def get_formatted_name(first_name, last_name,middle_name =''):
+#     full_name = f"{first_name} {middle_name} {last_name}"
+#     return full_name.title()
+# musician1 = get_formatted_name('john','lee','hooker')
+# musician2 = get_formatted_name('jimi','hendrix')
+# print(musician1)
+# print(musician2)
+
+# # Returning a dictionary
+# def build_person(first_name,last_name,age = None):
+#     person = {'first':first_name,'last':last_name,'age':age}
+#     if age :
+#         person['age'] = age
+#     return person
+# musician = build_person('jimi','hendrix',age=28)
+# print(musician)
+
+# Using a function with while loop
+def get_formateed_name(first_name,last_name):
+    full_name=f"{first_name} {last_name}"
+    return(full_name.title())
+
+while True:
+    print("\nPlease tell me your name")
+    print("press q to quit")
+    f_name = input('first name')
+    if f_name == 'q':
+        break
+    l_name = input("last name")
+    if l_name =='q:':
+        break
+formatted_name = get_formateed_name(f_name,l_name)
+print(formatted_name)
