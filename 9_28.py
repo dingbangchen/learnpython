@@ -1,4 +1,4 @@
-# print ("hello world")
+print ("hello world")
 
 # print('The quick brown fox', 'jumps over', 'the lazy dog', sep=",")
 
