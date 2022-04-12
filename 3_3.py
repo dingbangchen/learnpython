@@ -1,3 +1,7 @@
-aList= [1,2,3,4,5,6]
-aList.insert(0,7)
-print(aList)
+num = int(input("please input a number"))
+n = num
+f1 = [] # for store the number
+for i in range(0,n):
+    if i%2 ==0:
+        print(i)
+       
