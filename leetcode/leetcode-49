@@ -1,0 +1,24 @@
+import collections
+from itertools import count
+from typing import DefaultDict
+
+
+strs = ["eat","tea","tan","ate","nat","bat"]
+# result = DefaultDict(list)
+# for s in strs:
+#     count = [0]*26
+#     for c in s :
+#         count[ord(c)-ord("a")]+=1
+#         result[tuple(count)].append(s)
+#         # print(result)
+# return result.values()
+    
+ans = collections.defaultdict(list)
+        
+for s in strs:
+    count = [0] * 26
+    for c in s:
+        count[ord(c) - ord('a')] += 1
+    ans[tuple(count)].append(s)
+    print(ans)
+    print(ans.values())
